@@ -1,55 +1,55 @@
 
-# Mandelbrot Visualisation
+# Mandelbrot Visualization
 
-### Autor: Rafał Mironko
+### Author: Rafał Mironko
 
 ---
 
-## Opis projektu
+## Project Description
 
-**Mandelbrot Visualization** to program napisany w assemblerze, który generuje i wizualizuje zbiór Mandelbrota. Wykorzystując bibliotekę Allegro, program umożliwia przybliżanie i przesuwanie po zbiorze Mandelbrota w czasie rzeczywistym, oferując użytkownikowi interaktywne doświadczenie eksploracji tego fraktala.
+**Mandelbrot Visualization** is a program written in assembly language that generates and visualizes the Mandelbrot set. Utilizing the Allegro library, the program allows for zooming and panning through the Mandelbrot set in real-time, providing an interactive experience for exploring this fractal.
 
-## Funkcje
+## Features
 
-- **Generowanie Zbioru Mandelbrota**: Program oblicza i wyświetla fraktal Mandelbrota.
-- **Interaktywna Wizualizacja**: Użytkownicy mogą przybliżać i przesuwać po zbiorze Mandelbrota w czasie rzeczywistym za pomocą klawiatury.
-- **Wysoka Wydajność**: Wykorzystanie assemblera pozwala na maksymalizację wydajności podczas generowania fraktala.
+- **Mandelbrot Set Generation**: The program computes and displays the Mandelbrot fractal.
+- **Interactive Visualization**: Users can zoom in and pan through the Mandelbrot set in real-time using the keyboard.
+- **High Performance**: Using assembly language maximizes performance during fractal generation.
 
-## Wymagania
+## Requirements
 
-- **NASM (Netwide Assembler)**: Kompilator assemblera.
-- **Biblioteka Allegro**: Do obsługi grafiki i interakcji w czasie rzeczywistym.
-- **CMake**: Do konfiguracji i budowania projektu.
-- **Kompatybilny kompilator C++**: Do budowania części projektu napisanej w C++.
+- **NASM (Netwide Assembler)**: Assembler compiler.
+- **Allegro Library**: For graphics and real-time interaction handling.
+- **CMake**: For project configuration and building.
+- **Compatible C++ Compiler**: For building the C++ part of the project.
 
-## Instalacja
+## Installation
 
-1. **Zainstaluj NASM**: [Pobierz i zainstaluj NASM](https://www.nasm.us/pub/nasm/releasebuilds/).
-2. **Zainstaluj bibliotekę Allegro**:
-   - Możesz znaleźć instrukcje instalacji na stronie [Allegro](https://liballeg.org/).
-3. **Sklonuj repozytorium**:
+1. **Install NASM**: [Download and install NASM](https://www.nasm.us/pub/nasm/releasebuilds/).
+2. **Install the Allegro library**:
+   - You can find installation instructions on the [Allegro website](https://liballeg.org/).
+3. **Clone the repository**:
    ```sh
-   git clone https://github.com/twoje_repozytorium/mandelbrot-explorer.git
+   git clone https://github.com/your_repository/mandelbrot-explorer.git
    cd mandelbrot-explorer
    ```
-4. **Skonfiguruj projekt za pomocą CMake**:
+4. **Configure the project using CMake**:
    ```sh
    cmake .
    make
    ```
 
-## Użycie
+## Usage
 
-Po zbudowaniu projektu, uruchom plik wykonywalny:
+After building the project, run the executable:
 ```sh
 ./mandelbrot
 ```
 
-### Sterowanie
+### Controls
 
-- **WSAD**: Przesuwanie widoku.
-- **QE**: Przybliżanie widoku.
+- **WSAD**: Pan the view.
+- **QE**: Zoom the view.
 
-## Autor
+## Author
 
 Rafał Mironko
